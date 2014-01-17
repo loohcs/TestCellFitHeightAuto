@@ -16,6 +16,9 @@
 		D39830AF171D49EE00891C09 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D39830AE171D49EE00891C09 /* Default.png */; };
 		D39830B1171D49EE00891C09 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39830B0171D49EE00891C09 /* Default@2x.png */; };
 		D39830B3171D49EE00891C09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39830B2171D49EE00891C09 /* Default-568h@2x.png */; };
+		D39830BB171D4A0A00891C09 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39830BA171D4A0A00891C09 /* RootViewController.m */; };
+		D39830BE171D4B4F00891C09 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D39830BD171D4B4F00891C09 /* MyTableViewCell.m */; };
+		D39830C1171D4C3000891C09 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D39830C0171D4C3000891C09 /* MyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		D39830AE171D49EE00891C09 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D39830B0171D49EE00891C09 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D39830B2171D49EE00891C09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D39830B9171D4A0A00891C09 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D39830BA171D4A0A00891C09 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D39830BC171D4B4F00891C09 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		D39830BD171D4B4F00891C09 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		D39830BF171D4C3000891C09 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		D39830C0171D4C3000891C09 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +89,12 @@
 			children = (
 				D39830AB171D49EE00891C09 /* AppDelegate.h */,
 				D39830AC171D49EE00891C09 /* AppDelegate.m */,
+				D39830B9171D4A0A00891C09 /* RootViewController.h */,
+				D39830BA171D4A0A00891C09 /* RootViewController.m */,
+				D39830BC171D4B4F00891C09 /* MyTableViewCell.h */,
+				D39830BD171D4B4F00891C09 /* MyTableViewCell.m */,
+				D39830BF171D4C3000891C09 /* MyLabel.h */,
+				D39830C0171D4C3000891C09 /* MyLabel.m */,
 				D39830A3171D49EE00891C09 /* Supporting Files */,
 			);
 			path = TestCellFitHeightAuto;
@@ -166,6 +181,9 @@
 			files = (
 				D39830A9171D49EE00891C09 /* main.m in Sources */,
 				D39830AD171D49EE00891C09 /* AppDelegate.m in Sources */,
+				D39830BB171D4A0A00891C09 /* RootViewController.m in Sources */,
+				D39830BE171D4B4F00891C09 /* MyTableViewCell.m in Sources */,
+				D39830C1171D4C3000891C09 /* MyLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +261,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestCellFitHeightAuto/TestCellFitHeightAuto-Prefix.pch";
 				INFOPLIST_FILE = "TestCellFitHeightAuto/TestCellFitHeightAuto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +273,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestCellFitHeightAuto/TestCellFitHeightAuto-Prefix.pch";
 				INFOPLIST_FILE = "TestCellFitHeightAuto/TestCellFitHeightAuto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,6 +298,7 @@
 				D39830B8171D49EE00891C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

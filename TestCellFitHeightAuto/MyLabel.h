@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MyLabel.h
 //  TestCellFitHeightAuto
 //
 //  Created by 刘璇 on 13-4-16.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface MyLabel : UILabel
+{
+}
+@property(copy,nonatomic)NSString * aText;
+-(void)setText:(NSString *)text;
 @end

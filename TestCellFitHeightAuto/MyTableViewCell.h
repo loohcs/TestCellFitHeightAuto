@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MyTableViewCell.h
 //  TestCellFitHeightAuto
 //
 //  Created by 刘璇 on 13-4-16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MyLabel;
+@interface MyTableViewCell : UITableViewCell
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@property(retain,nonatomic)MyLabel * label;
 @end
